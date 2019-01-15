@@ -26,12 +26,13 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 1,
+    "uniqCompNum": 8,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png"
   },
