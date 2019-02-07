@@ -43,10 +43,10 @@ body {
 }
 .display-5 {
   font-family: 'Gilda Display', serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 2.56rem;
 }
 .display-7 {
   font-family: 'Roboto', sans-serif;
@@ -77,9 +77,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1383,7 +1383,7 @@ body {
   }
 }
 .cid-rhow8ckyBZ {
-  padding-top: 45px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-1-1920x1277.jpg");
 }
@@ -1409,8 +1409,8 @@ body {
 }
 .cid-rhow8ckyBZ .image-wrap img {
   border-radius: 50%;
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
 }
 .cid-rhow8ckyBZ .mbr-title {
   margin-bottom: 0;
@@ -1467,25 +1467,14 @@ body {
 .cid-rhow8ckyBZ .mbr-section-subtitle {
   color: #ffffff;
 }
-.cid-rhjiwu99mm {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-rhp5vxIEjw {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rhjiwu99mm h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-rhjiwu99mm p {
+.cid-rhp5vxIEjw .mbr-text,
+.cid-rhp5vxIEjw blockquote {
   color: #767676;
-  text-align: left;
-}
-.cid-rhjiwu99mm .card-box {
-  padding-top: 2rem;
-}
-.cid-rhjiwu99mm .card-wrapper {
-  height: 100%;
 }
 .cid-rhoDiKhtkr {
   padding-top: 60px;
@@ -1589,6 +1578,24 @@ body {
   .cid-rhoGZZEQgK .testimonials-caption {
     padding: 0 2rem 2rem 2rem !important;
   }
+}
+.cid-rhoXbhzHSx {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-rhoXbhzHSx .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rhoXbhzHSx .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rhoXbhzHSx .mbr-text {
+  color: #767676;
 }
 .cid-rhjjKsynx2 {
   padding-top: 0px;
