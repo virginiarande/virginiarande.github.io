@@ -1523,15 +1523,6 @@ body {
     padding: 0 2rem 2rem 2rem !important;
   }
 }
-.cid-rhoMMrOKjI {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-rhoMMrOKjI .mbr-text,
-.cid-rhoMMrOKjI blockquote {
-  color: #767676;
-}
 .cid-rhoGZZEQgK {
   padding-top: 15px;
   padding-bottom: 60px;
@@ -1579,26 +1570,8 @@ body {
     padding: 0 2rem 2rem 2rem !important;
   }
 }
-.cid-rhoXbhzHSx {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-@media (min-width: 992px) {
-  .cid-rhoXbhzHSx .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rhoXbhzHSx .mbr-figure {
-    padding-bottom: 1rem;
-  }
-}
-.cid-rhoXbhzHSx .mbr-text {
-  color: #767676;
-}
 .cid-rhjjKsynx2 {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background-color: #f3f4f6;
 }
@@ -1621,27 +1594,4 @@ body {
     width: auto;
     margin: auto;
   }
-}
-.cid-rhjkwBntVM {
-  padding-top: 0px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-rhjkwBntVM .media-container-row .mbr-text {
-  color: #232323;
-}
-.cid-rhjkwBntVM a,
-.cid-rhjkwBntVM p {
-  font-family: "font", sans-serif;
-  font-size: .9rem;
-  font-weight: 300;
-  line-height: 1.25rem;
-  color: rgba(0, 0, 0, 0.9) !important;
-}
-.cid-rhjkwBntVM .media-container-row .mbr-text SPAN {
-  color: #0a0a0a;
-}
-.cid-rhjkwBntVM a.text-black:hover,
-.cid-rhjkwBntVM a.text-black:focus {
-  color: #0f7699!important;
 }
