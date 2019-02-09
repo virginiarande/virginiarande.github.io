@@ -46,14 +46,18 @@
       }
     ],
     "uniqCompNum": 37,
-    "versionPublish": "4.9.1",
-    "screenshot": "screenshot.png"
+    "versionPublish": "4.9.2",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Terapias Naturales Barcelon - Virginia Randé",
+        "title": "Terapias Naturales Barcelon - Virginia Cuevas Randé",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
