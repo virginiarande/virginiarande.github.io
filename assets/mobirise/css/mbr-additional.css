@@ -1525,10 +1525,17 @@ body {
   }
 }
 .cid-rhoDiKhtkr .user_desk {
-  text-align: right;
+  text-align: center;
 }
 .cid-rhoDiKhtkr .user_name {
-  text-align: left;
+  text-align: center;
+  color: #795891;
+}
+.cid-rhoDiKhtkr .user_desk B {
+  color: #795891;
+}
+.cid-rhoDiKhtkr .user_text {
+  color: #2c153d;
 }
 .cid-rhrmzDSvgl {
   padding-top: 60px;
