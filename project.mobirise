@@ -51,18 +51,27 @@
       }
     ],
     "uniqCompNum": 50,
-    "versionPublish": "4.12.3",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "siteUrl": "",
+    "robotsSwitcher": false,
+    "siteUrl": false,
     "sitemapSwitcherAuto": "on",
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": "",
-    "gdpr": "",
-    "imageResize": true
+    "cookiesAlert": false,
+    "gdpr": false,
+    "imageResize": true,
+    "publishChangesOnly": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "sitemapSwitcher": false,
+    "pwa-switcher": false,
+    "htmltag": "undefined",
+    "headtag": "undefined",
+    "bodytag": "undefined"
   },
   "pages": {
     "index.html": {
@@ -199,7 +208,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>\"Hola\" gracias por visitarme... en mi web podrás ver las terapias que uso a diario con los pacientes, mi experiencia profesional, mis nuevos estudios y las valoraciones muy positivas de mis clientes.</p><p>Si tuvieses preguntas, cuestiones, o deseas iniciar un tratamiento para que te dé una primera valoración, pídeme cita, despejaré cualquier duda que me plantees. Espero conocerte pronto ayudándote a resolver definitivamente las molestias que te afectan.</p><p><b style=\"font-style: normal;\">Virginia Cuevas Randé.</b></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>\"Hola\" gracias por visitarme... en mi web podrás ver las terapias que uso a diario con los pacientes, mi experiencia profesional, mis nuevos estudios y las valoraciones muy positivas de mis clientes.</p><p>Si tuvieses preguntas, cuestiones, o deseas iniciar un tratamiento para que te dé una primera valoración, pídeme cita, despejaré cualquier duda que me plantees. Espero conocerte pronto ayudándote a resolver definitivamente las molestias que te afectan.</p><p><b style=\"font-style: normal;\">Virginia Cuevas Randé..</b></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rhp5vxIEjw",
           "_anchor": "content2-y",
           "_PHPplaceholders": [],
@@ -235,11 +244,11 @@
           "_name": "video1",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#b2ccd2\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/GY0-roo4py8?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "s63hJ14QnP",
+          "_anchor": "video1-1d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video1-1d"
+          "_params": {}
         },
         {
           "_styles": {
