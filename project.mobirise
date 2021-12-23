@@ -51,7 +51,7 @@
       }
     ],
     "uniqCompNum": 50,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": false,
@@ -73,7 +73,24 @@
     "headtag": false,
     "bodytag": false,
     "mbrSwitch": "",
-    "fontSwitch": ""
+    "fontSwitch": "",
+    "chatbutton": {
+      "phone": "+34622404639",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "Hi!👋\n\nType a message here. It will go straight to our phone! 🔥\n\nMobirise Team",
+      "showPopup": false,
+      "showOnIE": true,
+      "autoOpenTimeout": 5,
+      "headerColor": "#39847a",
+      "headerTitle": "👋 Chat with us on WhatsApp!",
+      "placeholder": "Type here",
+      "zIndex": 10,
+      "enabled": true
+    },
+    "mbrsiteDomain": "vswntlatwk"
   },
   "pages": {
     "index.html": {
